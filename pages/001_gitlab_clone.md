@@ -16,10 +16,12 @@
 there's 2 ways to authenticate with Gitlab: SSH and HTTPS.
 
 ## SSH method
-  git remote add origin git@gitlab.some.domain:userA/flaskapp.git
+
+git remote add origin git@gitlab.some.domain:userA/flaskapp.git
 
 ## HTTPS method
-  git remote add origin https://userA@gitlab.some.domain:/userA/flaskapp.git
+
+git remote add origin https://userA@gitlab.some.domain:/userA/flaskapp.git
 
 # Summary
 In this case, the SSH method didn't work. HTTPS worked instead.
